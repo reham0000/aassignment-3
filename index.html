@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font awesome cdn -->
+    <script
+      src="https://kit.fontawesome.com/33a210a521.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- tailwind and daisyUi cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .font-manrope {
+        font-family: "Manrope";
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              "the-primary": "#ABEF5F",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="font-manrope">
+    <!-- header section start -->
+    <header>
+      <!-- nav section start -->
+      <nav class="w-11/12 mx-auto mt-3">
+        <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="flex gap-4">
+              <i
+                class="fa-solid fa-arrow-right -rotate-45 bg-the-primary rounded-full font-bold p-3"
+              ></i>
+              <h1 class="font-bold text-3xl">Rinterio</h1>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1 text-xl">
+              <li
+                class="hover:text-green-400 duration-300 ease-in-out list-none"
+              >
+                <a class="lg:block hidden">Home</a>
+              </li>
+              <li
+                class="hover:text-green-400 duration-300 ease-in-out list-none"
+              >
+                <a class="lg:block hidden">Service</a>
+              </li>
+              <li
+                class="hover:text-green-400 duration-300 ease-in-out list-none"
+              >
+                <a class="lg:block hidden">Portfolio</a>
+              </li>
+              <li
+                class="hover:text-green-400 duration-300 ease-in-out list-none"
+              >
+                <a class="lg:block hidden">Blogs</a>
+              </li>
+              <li
+                class="hover:text-green-400 duration-300 ease-in-out list-none"
+              >
+                <a class="lg:block hidden">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-end gap-4">
+            <i
+              class="fa-solid fa-magnifying-glass lg:block hidden hover:text-slate-900 text-gray-500 text-2xl bg-white rounded-full shadow p-3"
+            ></i>
+            <i
+              class="fa-solid fa-cart-shopping lg:block hidden hover:text-slate-900 text-gray-500 text-2xl bg-white rounded-full shadow p-3"
+            ></i>
+            <div class="lg:block hidden">
+              <a class="bg-the-primary rounded-full px-6 py-2 text-lg font-bold"
+                >Book Consult
+                <i
+                  class="fa-solid fa-arrow-right text-white -rotate-45 bg-slate-900 rounded-full p-2"
+                ></i>
+              </a>
+            </div>
+            <div
+              class="flex justify-end lg:hidden items-end bg-white shadow rounded-full p-3"
+            >
+              <i class="fa-solid fa-bars lg:hidden block"></i>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- banner section start -->
+    </header>
+    <!-- main section start -->
+    <main></main>
+    <!-- footer section start -->
+    <footer></footer>
+  </body>
+</html>
